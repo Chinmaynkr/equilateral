@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Animation for scrolling ticker */
+  .animate-marquee {
+    animation: marquee 30s linear infinite;
+  }
+
+  .animate-ticker {
+    animation: ticker 30s linear infinite;
+    display: inline-flex;
+    will-change: transform;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  @keyframes ticker {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Enhanced marquee for trading platform */
+  .marquee {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background-color: #f3f4f6;
+  }
+  
+  .dark .marquee {
+    background-color: #1f2937;
+  }
+  
+  .marquee > div {
+    display: flex;
+    animation: marquee-scroll 25s linear infinite;
+  }
+  
+  @keyframes marquee-scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Stock price changes */
+  .price-up {
+    color: #10B981;
+    font-weight: 500;
+  }
+  
+  .price-down {
+    color: #EF4444;
+    font-weight: 500;
+  }
+  
+  /* Trading platform specific styles */
+  .ticker-item {
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .ticker-symbol {
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .dark .ticker-symbol {
+    color: #D1D5DB;
+  }
+  
+  .ticker-value {
+    font-weight: 500;
+  }
+  
+  .ticker-change {
+    font-size: 0.75rem;
+    margin-left: 4px;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.7);
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(75, 85, 99, 0.5);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(75, 85, 99, 0.7);
+}
+
+/* Trading platform specific styles */
+.data-card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.data-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.stock-table th, .stock-table td {
+  padding: 0.75rem 1rem;
+}
+
+.stock-table tr:hover {
+  background-color: rgba(243, 244, 246, 0.5);
+}
+
+.dark .stock-table tr:hover {
+  background-color: rgba(31, 41, 55, 0.5);
+}
