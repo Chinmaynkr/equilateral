@@ -1,41 +1,63 @@
-# Equilateral
+# 🚀 Equilateral
 
-![Equilateral]
+#### The Ultimate Portfolio Visualizer for Investors
 
-## Overview
+---
 
-Equilateral Folio Visualizer is a comprehensive financial portfolio management and visualization dashboard built for Indian investors. This modern, responsive web application provides users with powerful tools to track, analyze, and optimize their investment portfolios in real-time.
+## ✨ Why Equilateral?
 
-## Features
+Equilateral is your all-in-one dashboard to track, analyze, and optimize your investments. Whether you’re a seasoned investor or just getting started, Equilateral empowers you to make smarter financial decisions with real-time insights and beautiful visualizations.
+
+- ⚡ Modern, blazing-fast web app
+- 📈 Real-time analytics and charts
+- 🛡 Secure account management
+- 🔔 Custom alerts and notifications
+- 🧑‍💻 Built for Indian markets
+
+---
+
+## 👤 Who is it for?
+
+- Investors in Indian markets
+- Portfolio managers & finance enthusiasts
+- Anyone looking to visualize, track, and optimize their investments
+
+---
+
+## 🌟 Features
 
 ### Core Features
 
-- **Portfolio Dashboard**: Comprehensive overview of your investment portfolio with key metrics and performance indicators
-- **Watchlist Management**: Track potential investments and monitor market movements
-- **Account Management**: Manage multiple trading and demat accounts in one place
-- **Real-time Market Data**: Live market updates and stock price tracking
-- **Performance Analytics**: Detailed performance metrics with visual charts and graphs
+- 📊 *Portfolio Dashboard*: Overview with key metrics and performance indicators
+- 👀 *Watchlist Management*: Track potential investments & market movements
+- 🗂 *Account Management*: Manage multiple trading and demat accounts
+- ⏱ *Real-time Market Data*: Live updates and stock price tracking
+- 📉 *Performance Analytics*: Visual charts and detailed metrics
 
-### Premium Features (PRO)
+### PRO Features
 
-- **Advanced Research Tools**: In-depth stock analysis and market research capabilities
-- **Portfolio Simulator**: Test investment strategies without risking real money
-- **What-If Analysis**: Simulate potential portfolio changes and visualize outcomes
-- **Custom Alerts**: Set personalized alerts for price movements and market events
+- 🧠 *Advanced Research Tools*: In-depth stock & market analysis
+- 🧪 *Portfolio Simulator*: Test strategies risk-free
+- 🔮 *What-If Analysis*: Simulate and visualize potential changes
+- 🚨 *Custom Alerts*: Personalized notifications for price & events
 
-## Technology Stack
+---
 
-- **Frontend Framework**: React with TypeScript
-- **Build Tool**: Vite
-- **UI Components**: shadcn/ui
-- **Styling**: Tailwind CSS
-- **State Management**: React Query
-- **Theming**: next-themes (Dark/Light mode support)
-- **Icons**: Lucide React
-- **Charts**: Recharts
-- **Animations**: Framer Motion
+## 🛠 Tech Stack
 
-## Getting Started
+- ⚛ *React* (TypeScript)
+- 🛠 *Vite*
+- 💎 *shadcn/ui*
+- 🎨 *Tailwind CSS*
+- 📦 *React Query*
+- 🌗 *next-themes* (Dark/Light mode)
+- 🖼 *Lucide React* (icons)
+- 📊 *Recharts* (charts)
+- 🎬 *Framer Motion* (animations)
+
+---
+
+## 🚦 Getting Started
 
 ### Prerequisites
 
@@ -49,13 +71,17 @@ Equilateral Folio Visualizer is a comprehensive financial portfolio management a
 git clone https://github.com/Chinmaynkr/equilateral.git
 
 # Navigate to the project directory
-cd equilateral-folio-visualizer
+cd equilateral
 
 # Install dependencies
 npm install
 # or
 yarn install
+```
 
+### 🚀 Run the App
+
+```bash
 # Start the development server
 npm run dev
 # or
