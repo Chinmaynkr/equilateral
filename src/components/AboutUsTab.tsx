@@ -110,7 +110,7 @@ export default function AboutUsTab() {
               Always consult with a qualified financial professional before making investment decisions.
             </p>
             <p>
-              &copy; 2023-2025 Equilateral. All rights reserved.
+              &copy; 2025 Equilateral. All rights reserved.
             </p>
           </div>
         </div>
