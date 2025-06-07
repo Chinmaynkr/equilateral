@@ -1,3 +1,5 @@
+![License: © Chinmay Nerkar (Equilateral) – All Rights Reserved](https://img.shields.io/badge/License-All--rights--reserved-red)
+
 # 🚀 Equilateral
 
 #### The Ultimate Portfolio Visualizer for Investors
@@ -148,17 +150,17 @@ The application includes sample user profiles for demonstration purposes. In a p
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+This is a proprietary project. External contributions are not currently accepted.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+If you’re interested in a partnership, collaboration, or contributing under a special arrangement, please contact: chinmaynkr@gmail.com
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is proprietary software and all rights are reserved.
+
+No part of this codebase may be used, modified, distributed, or reproduced without explicit written permission from the copyright holder.
+
+See the [LICENSE](./LICENSE) file for complete terms.
 
 ## Acknowledgements
 
@@ -174,4 +176,4 @@ For questions or support, please contact the Equilateral team at chinmaynkr@gmai
 
 ---
 
-© 2025 Equilateral. All rights reserved.
+© 2025 Chinmay Nerkar (Equilateral). All rights reserved.
