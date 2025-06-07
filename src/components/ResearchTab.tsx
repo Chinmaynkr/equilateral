@@ -232,7 +232,8 @@ const ResearchTab: React.FC<ResearchTabProps> = ({ stocks, onSelectStock }) => {
             />
             <Search className="absolute right-3 top-2.5 h-5 w-5 text-gray-400" />
           </div>
-          <Button 
+          <Button
+            variant="outline"
             onClick={handleSubmit}
             disabled={isProcessing}
           >
