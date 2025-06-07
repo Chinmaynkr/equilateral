@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Mail, Globe, Code, Heart, Coffee } from 'lucide-react';
+import { Linkedin, Mail, Globe, Code, Heart, Coffee } from 'lucide-react';
 import { Button } from './ui/button';
 
 export default function AboutUsTab() {
@@ -17,41 +17,41 @@ export default function AboutUsTab() {
               market trends, and personalized user experience.
             </p>
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <div className="space-y-4">
-              <h2 className="text-xl font-semibold flex items-center" id="github-repo-heading">
-                <Github className="h-5 w-5 mr-2 text-indigo-600 dark:text-indigo-400" aria-hidden="true" />
-                GitHub Repository
-              </h2>
-              <p className="text-gray-600 dark:text-gray-300">
-                This project is open source. Feel free to contribute, report issues, or fork the repository.
-              </p>
-              <div className="flex justify-start">
-                <Button className="flex items-center" aria-label="View on GitHub" onClick={() => window.open('https://github.com/Chinmaynkr/', '_blank')}>
-                  <Github className="h-4 w-4 mr-2" aria-hidden="true" />
-                  View on GitHub
+           <div className="bg-yellow-50 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 p-4 rounded mb-8">
+            <p className="font-medium">🚫 This is a proprietary project.</p>
+            <p>External contributions are not currently accepted.</p>
+            <p>Interested in a partnership or special collaboration? Reach out via Email or LinkedIn below.</p>
+          </div>
+
+          <div className="space-y-4 mb-8">
+            <h2 className="text-xl font-semibold flex items-center" id="contact-heading">
+              <Mail className="h-5 w-5 mr-2 text-indigo-600 dark:text-indigo-400" />
+              Contact Us
+            </h2>
+            <p className="text-gray-600 dark:text-gray-300">
+              Have questions or suggestions? Reach out to our development team.
+            </p>
+            <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-2 sm:space-y-0">
+              <Button
+                variant="outline"
+                className="flex items-center"
+                aria-label="Email chinmaynkr@gmail.com"
+                onClick={() => window.open('mailto:chinmaynkr@gmail.com', '_blank')}
+              >
+                <Mail className="h-4 w-4 mr-2" />
+                chinmaynkr@gmail.com
+              </Button>
+              <Button
+                variant="outline"
+                className="flex items-center"
+                aria-label="Connect on LinkedIn"
+                onClick={() => window.open('https://www.linkedin.com/in/chinmay-nerkar/', '_blank')}
+              >
+                <Linkedin className="h-4 w-4 mr-2" />
+                Connect via LinkedIn
                 </Button>
-              </div>
-            </div>
-            
-            <div className="space-y-4">
-              <h2 className="text-xl font-semibold flex items-center" id="contact-heading">
-                <Mail className="h-5 w-5 mr-2 text-indigo-600 dark:text-indigo-400" aria-hidden="true" />
-                Contact Us
-              </h2>
-              <p className="text-gray-600 dark:text-gray-300">
-                Have questions or suggestions? Reach out to our development team.
-              </p>
-              <div className="flex justify-start">
-                <Button variant="outline" className="flex items-center" aria-label="Email chinmaynkr@gmail.com" onClick={() => window.open('mailto:chinmaynkr@gmail.com', '_blank')}>
-                  <Mail className="h-4 w-4 mr-2" aria-hidden="true" />
-                  chinmaynkr@gmail.com
-                </Button>
-              </div>
             </div>
           </div>
-          
           <div className="border-t border-gray-200 dark:border-gray-800 pt-8">
             <h2 className="text-xl font-semibold mb-4" id="about-project-heading">About the Project</h2>
             <div className="space-y-4">
