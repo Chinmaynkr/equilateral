@@ -34,20 +34,6 @@ interface NavItem {
 // User profiles data
 const userProfiles = [
   {
-    name: "Aanya Patel",
-    accountId: "EQUI78542",
-    email: "aanya.p@equilateral.in",
-    avatarColor: "purple",
-    notifications: 7,
-    portfolioValue: 3458750.50,
-    investmentValue: 2875000.00,
-    todayPnL: 95250.25,
-    overallPnL: 583750.50,
-    todayPnLPercentage: 3.2,
-    overallPnLPercentage: 20.3,
-    availableMargin: 845250
-  },
-  {
     name: "Chinmay Nerkar",
     accountId: "EQUI23985",
     email: "chinmaynkr@gmail.com",
@@ -60,20 +46,6 @@ const userProfiles = [
     todayPnLPercentage: 2.8,
     overallPnLPercentage: 16.6,
     availableMargin: 578450
-  },
-  {
-    name: "Priya Mehta",
-    accountId: "EQUI45672",
-    email: "priya.m@equilateral.in",
-    avatarColor: "green",
-    notifications: 5,
-    portfolioValue: 4125780.25,
-    investmentValue: 3250000.00,
-    todayPnL: 112500.50,
-    overallPnL: 875780.25,
-    todayPnLPercentage: 3.5,
-    overallPnLPercentage: 26.9,
-    availableMargin: 925000
   },
   {
     name: "Anupam Nerkar",
@@ -89,62 +61,6 @@ const userProfiles = [
     overallPnLPercentage: 13.7,
     availableMargin: 425000
   },
-  {
-    name: "Neha Sharma",
-    accountId: "EQUI67321",
-    email: "neha.s@equilateral.in",
-    avatarColor: "yellow",
-    notifications: 9,
-    portfolioValue: 5250750.75,
-    investmentValue: 4150000.00,
-    todayPnL: 145250.25,
-    overallPnL: 1100750.75,
-    todayPnLPercentage: 2.9,
-    overallPnLPercentage: 26.5,
-    availableMargin: 1250000
-  },
-  {
-    name: "Rahul Kapoor",
-    accountId: "EQUI12458",
-    email: "rahul.k@equilateral.in",
-    avatarColor: "amber",
-    notifications: 4,
-    portfolioValue: 3125450.25,
-    investmentValue: 2750000.00,
-    todayPnL: 85250.50,
-    overallPnL: 375450.25,
-    todayPnLPercentage: 2.5,
-    overallPnLPercentage: 13.7,
-    availableMargin: 650000
-  },
-  {
-    name: "Kavita Joshi",
-    accountId: "EQUI56789",
-    email: "kavita.j@equilateral.in",
-    avatarColor: "indigo",
-    notifications: 6,
-    portfolioValue: 2450750.50,
-    investmentValue: 2100000.00,
-    todayPnL: -45250.25,
-    overallPnL: 350750.50,
-    todayPnLPercentage: -1.2,
-    overallPnLPercentage: 16.7,
-    availableMargin: 525000
-  },
-  {
-    name: "Sanjay Gupta",
-    accountId: "EQUI34567",
-    email: "sanjay.g@equilateral.in",
-    avatarColor: "blue",
-    notifications: 1,
-    portfolioValue: 1750250.75,
-    investmentValue: 1500000.00,
-    todayPnL: 65250.25,
-    overallPnL: 250250.75,
-    todayPnLPercentage: 3.7,
-    overallPnLPercentage: 16.7,
-    availableMargin: 375000
-  }
 ];
 
 const gradientOptions = [
